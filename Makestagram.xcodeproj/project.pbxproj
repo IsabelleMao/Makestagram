@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C1F89EFFFDD98328F2F79881 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0021859B3C430807CC33CB5 /* Pods_Makestagram.framework */; };
 		C2799C911F01763700BC57D2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C27F669C1EFC5A8D001DB0B0 /* Info.plist */; };
+		C2799C9B1F017C4400BC57D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2799C9A1F017C4400BC57D2 /* GoogleService-Info.plist */; };
 		C27F66911EFC5A8D001DB0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */; };
 		C27F66931EFC5A8D001DB0B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27F66921EFC5A8D001DB0B0 /* ViewController.swift */; };
 		C27F66961EFC5A8D001DB0B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27F66941EFC5A8D001DB0B0 /* Main.storyboard */; };
@@ -19,13 +20,14 @@
 /* Begin PBXFileReference section */
 		808256C3E3ABF8DF9F758268 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 		B0021859B3C430807CC33CB5 /* Pods_Makestagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Makestagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2799C9A1F017C4400BC57D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C27F668D1EFC5A8D001DB0B0 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C27F66921EFC5A8D001DB0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C27F66921EFC5A8D001DB0B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = "../../Make School Projects/Makestagram/Makestagram/ViewController.swift"; sourceTree = "<group>"; };
 		C27F66951EFC5A8D001DB0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C27F669A1EFC5A8D001DB0B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C27F669C1EFC5A8D001DB0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27F669C1EFC5A8D001DB0B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Make School Projects/Makestagram/Makestagram/Info.plist"; sourceTree = "<group>"; };
 		C6874066C3E46CAADB642A7B /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,75 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C2799C921F0179E900BC57D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C27F66921EFC5A8D001DB0B0 /* ViewController.swift */,
+			);
+			name = Controllers;
+			path = ../../../testy/Controllers;
+			sourceTree = "<group>";
+		};
+		C2799C931F0179E900BC57D2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
+			path = ../../../testy/Extensions;
+			sourceTree = "<group>";
+		};
+		C2799C941F0179E900BC57D2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			path = ../../../testy/Helpers;
+			sourceTree = "<group>";
+		};
+		C2799C951F0179E900BC57D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			path = ../../../testy/Models;
+			sourceTree = "<group>";
+		};
+		C2799C961F0179E900BC57D2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			path = ../../../testy/Services;
+			sourceTree = "<group>";
+		};
+		C2799C971F0179E900BC57D2 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C27F66991EFC5A8D001DB0B0 /* LaunchScreen.storyboard */,
+				C27F66941EFC5A8D001DB0B0 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			path = ../../../testy/Storyboards;
+			sourceTree = "<group>";
+		};
+		C2799C981F0179E900BC57D2 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				C2799C9A1F017C4400BC57D2 /* GoogleService-Info.plist */,
+				C27F669C1EFC5A8D001DB0B0 /* Info.plist */,
+			);
+			name = Supporting;
+			path = ../../../testy/Supporting;
+			sourceTree = "<group>";
+		};
+		C2799C991F0179E900BC57D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			path = ../../../testy/Views;
+			sourceTree = "<group>";
+		};
 		C27F66841EFC5A8D001DB0B0 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +150,16 @@
 		C27F668F1EFC5A8D001DB0B0 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
+				C2799C921F0179E900BC57D2 /* Controllers */,
+				C2799C931F0179E900BC57D2 /* Extensions */,
+				C2799C941F0179E900BC57D2 /* Helpers */,
+				C2799C951F0179E900BC57D2 /* Models */,
+				C2799C961F0179E900BC57D2 /* Services */,
+				C2799C971F0179E900BC57D2 /* Storyboards */,
+				C2799C981F0179E900BC57D2 /* Supporting */,
+				C2799C991F0179E900BC57D2 /* Views */,
 				C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */,
-				C27F66921EFC5A8D001DB0B0 /* ViewController.swift */,
-				C27F66941EFC5A8D001DB0B0 /* Main.storyboard */,
 				C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */,
-				C27F66991EFC5A8D001DB0B0 /* LaunchScreen.storyboard */,
-				C27F669C1EFC5A8D001DB0B0 /* Info.plist */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -154,6 +229,7 @@
 			files = (
 				C2799C911F01763700BC57D2 /* Info.plist in Resources */,
 				C27F669B1EFC5A8D001DB0B0 /* LaunchScreen.storyboard in Resources */,
+				C2799C9B1F017C4400BC57D2 /* GoogleService-Info.plist in Resources */,
 				C27F66981EFC5A8D001DB0B0 /* Assets.xcassets in Resources */,
 				C27F66961EFC5A8D001DB0B0 /* Main.storyboard in Resources */,
 			);
@@ -228,6 +304,7 @@
 				C27F66951EFC5A8D001DB0B0 /* Base */,
 			);
 			name = Main.storyboard;
+			path = "../../Make School Projects/Makestagram/Makestagram";
 			sourceTree = "<group>";
 		};
 		C27F66991EFC5A8D001DB0B0 /* LaunchScreen.storyboard */ = {
@@ -236,6 +313,7 @@
 				C27F669A1EFC5A8D001DB0B0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = "../../Make School Projects/Makestagram/Makestagram";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
