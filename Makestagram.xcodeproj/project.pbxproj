@@ -13,7 +13,7 @@
 		C22624821F0189A200C99321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C22624811F0189A200C99321 /* Main.storyboard */; };
 		C22624841F0189AD00C99321 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C22624831F0189AD00C99321 /* GoogleService-Info.plist */; };
 		C22624881F0189D200C99321 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C22624871F0189D200C99321 /* Default-568h@2x.png */; };
-		C2799C9B1F017C4400BC57D2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C2799C9A1F017C4400BC57D2 /* GoogleService-Info.plist */; };
+		C226248D1F0190BC00C99321 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C226248C1F0190BC00C99321 /* Login.storyboard */; };
 		C27F66911EFC5A8D001DB0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */; };
 		C27F66981EFC5A8D001DB0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		C22624831F0189AD00C99321 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C22624851F0189B600C99321 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		C22624871F0189D200C99321 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C2799C9A1F017C4400BC57D2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../testy/Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C226248C1F0190BC00C99321 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		C27F668D1EFC5A8D001DB0B0 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +63,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C22624891F018D5600C99321 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C226247D1F01898600C99321 /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C226248A1F018D6800C99321 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				C22624811F0189A200C99321 /* Main.storyboard */,
+				C226248C1F0190BC00C99321 /* Login.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		C226248B1F018D8F00C99321 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C22624851F0189B600C99321 /* Info.plist */,
+				C22624831F0189AD00C99321 /* GoogleService-Info.plist */,
+				C226247F1F01899A00C99321 /* LaunchScreen.storyboard */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C27F66841EFC5A8D001DB0B0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,12 +112,9 @@
 		C27F668F1EFC5A8D001DB0B0 /* Makestagram */ = {
 			isa = PBXGroup;
 			children = (
-				C2799C9A1F017C4400BC57D2 /* GoogleService-Info.plist */,
-				C22624851F0189B600C99321 /* Info.plist */,
-				C22624831F0189AD00C99321 /* GoogleService-Info.plist */,
-				C22624811F0189A200C99321 /* Main.storyboard */,
-				C226247F1F01899A00C99321 /* LaunchScreen.storyboard */,
-				C226247D1F01898600C99321 /* ViewController.swift */,
+				C226248B1F018D8F00C99321 /* Supporting Files */,
+				C226248A1F018D6800C99321 /* Storyboards */,
+				C22624891F018D5600C99321 /* View Controllers */,
 				C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */,
 				C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */,
 			);
@@ -161,8 +185,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C22624801F01899A00C99321 /* LaunchScreen.storyboard in Resources */,
-				C2799C9B1F017C4400BC57D2 /* GoogleService-Info.plist in Resources */,
 				C22624841F0189AD00C99321 /* GoogleService-Info.plist in Resources */,
+				C226248D1F0190BC00C99321 /* Login.storyboard in Resources */,
 				C27F66981EFC5A8D001DB0B0 /* Assets.xcassets in Resources */,
 				C22624881F0189D200C99321 /* Default-568h@2x.png in Resources */,
 				C22624821F0189A200C99321 /* Main.storyboard in Resources */,
