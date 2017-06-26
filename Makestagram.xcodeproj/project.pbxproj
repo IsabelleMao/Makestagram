@@ -16,6 +16,7 @@
 		C226248D1F0190BC00C99321 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C226248C1F0190BC00C99321 /* Login.storyboard */; };
 		C27F66911EFC5A8D001DB0B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */; };
 		C27F66981EFC5A8D001DB0B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */; };
+		C2F4D9311F01BBFB0037420E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2F4D9301F01BBFB0037420E /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		C27F668D1EFC5A8D001DB0B0 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27F66901EFC5A8D001DB0B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27F66971EFC5A8D001DB0B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2F4D9301F01BBFB0037420E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C6874066C3E46CAADB642A7B /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				C226247D1F01898600C99321 /* ViewController.swift */,
+				C2F4D9301F01BBFB0037420E /* LoginViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2F4D9311F01BBFB0037420E /* LoginViewController.swift in Sources */,
 				C226247E1F01898600C99321 /* ViewController.swift in Sources */,
 				C27F66911EFC5A8D001DB0B0 /* AppDelegate.swift in Sources */,
 			);
@@ -281,6 +285,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -331,6 +336,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
