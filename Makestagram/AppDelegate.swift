@@ -40,7 +40,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
+    
+    func application(_ application : UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any?]) -> Bool{
+        FirebaseApp.configure()
+        let storyboard = UIStoryboard(name: "Login", bundle: .main) //Make a new storyboard instance
+        if let initialViewController = storyboard.instantiateInitialViewController(){
+            window?.rootViewController = initialViewController
+            window?.makeKeyAndVisible() //Put it over over windows
+        }
+        return true
+    }
 }
 
