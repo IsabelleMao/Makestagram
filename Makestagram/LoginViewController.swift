@@ -9,5 +9,12 @@
 import UIKit
 
 class LoginViewController: UIViewController{
+    override func viewDidLoad(){
+        super.viewDidLoad()
+        //Additional setup
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning() //dispose stuff
+    }
     
 }
