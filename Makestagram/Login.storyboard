@@ -59,6 +59,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                                 <state key="normal" title="Begin"/>
+                                <connections>
+                                    <action selector="loginBPressed:" destination="rRG-pK-8X7" eventType="touchUpInside" id="xGR-Cb-nr4"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.95477973090277779" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -75,6 +78,9 @@
                             <constraint firstItem="B8c-t2-M0A" firstAttribute="leading" secondItem="URt-MM-OAD" secondAttribute="leading" constant="35" id="n8X-2m-0Vf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loginButton" destination="B8c-t2-M0A" id="Lsi-3f-pYg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5UA-2I-oNV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

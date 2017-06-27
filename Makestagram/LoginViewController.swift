@@ -9,6 +9,9 @@
 import UIKit
 
 class LoginViewController: UIViewController{
+    
+    @IBOutlet weak var loginButton: UIButton!
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         //Additional setup
@@ -17,4 +20,9 @@ class LoginViewController: UIViewController{
         super.didReceiveMemoryWarning() //dispose stuff
     }
     
+    
+    @IBAction func loginBPressed(_ sender: UIButton)
+    {
+        print("beepy")
+    }
 }
