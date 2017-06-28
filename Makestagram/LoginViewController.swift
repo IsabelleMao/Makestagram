@@ -9,6 +9,7 @@
 import UIKit
 import FirebaseAuth
 import FirebaseAuthUI
+import FirebaseDatabase //New!!
 
 typealias FIRUser = FirebaseAuth.User
 
@@ -41,6 +42,19 @@ extension LoginViewController: FUIAuthDelegate{
             assertionFailure("Error signing in: \(error.localizedDescription)")
             return
         }
-        print("dis handls signing up + loggin in")
+        guard let user = user //if there is a user. Unwrap
+            else{return}
+        //Below: A "relative" path
+        let userRef = Database.database().reference().child("users").child(user.uid) //UID, not ID :)
+        userRef.observeSingleEvent(of: .value, with: { (snapshot) in
+            //get data from snappyshot
+            userRef.observeSingleEvent(of: .value, with: { (snapshot) in
+                if let user = User(snapshot: snapshot) {
+                    print("Welcome back, \(user.username).")
+                } else {
+                    print("omg new kid")
+                }
+            })
+        })
     }
 }
